@@ -501,7 +501,7 @@ func TestSetBasicAuth(t *testing.T) {
 		SetSuccessResult(&headers).
 		Get("/header")
 	assertSuccess(t, resp, err)
-	tests.AssertEqual(t, "Basic aW1yb2M6MTIzNDU2", headers.Get("Authorization"))
+	tests.AssertEqual(t, "Basic RXhwbG9pdFN1aXRlOjEyMzQ1Ng==", headers.Get("Authorization"))
 }
 
 func TestSetBearerAuthToken(t *testing.T) {
