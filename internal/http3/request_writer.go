@@ -6,6 +6,7 @@ import (
 	"github.com/ExploitSuite/req/v3/internal/dump"
 	"github.com/ExploitSuite/req/v3/internal/header"
 	"github.com/quic-go/qpack"
+	"github.com/quic-go/quic-go"
 	"io"
 	"net"
 	"net/http"
