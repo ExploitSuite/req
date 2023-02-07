@@ -1,4 +1,4 @@
-module github.com/imroc/req/v3
+module github.com/ExploitSuite/req/v3
 
 go 1.18
 

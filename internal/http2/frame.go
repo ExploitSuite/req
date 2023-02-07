@@ -10,7 +10,7 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/imroc/req/v3/internal/dump"
+	"github.com/ExploitSuite/req/v3/internal/dump"
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/http2/hpack"
 	"io"

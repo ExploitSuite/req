@@ -5,14 +5,13 @@ import (
 	"crypto/tls"
 	"errors"
 	"fmt"
-	"github.com/imroc/req/v3/internal/transport"
+	"github.com/ExploitSuite/req/v3/internal/transport"
+	"github.com/quic-go/quic-go"
 	"io"
 	"net/http"
 	"strings"
 	"sync"
 	"time"
-
-	"github.com/quic-go/quic-go"
 
 	"golang.org/x/net/http/httpguts"
 )

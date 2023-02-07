@@ -9,8 +9,8 @@ package req
 import (
 	"context"
 	"errors"
-	"github.com/imroc/req/v3/internal/http2"
-	"github.com/imroc/req/v3/internal/tests"
+	"github.com/ExploitSuite/req/v3/internal/http2"
+	"github.com/ExploitSuite/req/v3/internal/tests"
 	"net"
 	"net/http"
 	"strings"

@@ -8,8 +8,8 @@ import (
 	"encoding/json"
 	"encoding/xml"
 	"errors"
-	"github.com/imroc/req/v3/internal/header"
-	"github.com/imroc/req/v3/internal/util"
+	"github.com/ExploitSuite/req/v3/internal/header"
+	"github.com/ExploitSuite/req/v3/internal/util"
 	"golang.org/x/net/publicsuffix"
 	"io"
 	"net"
@@ -510,7 +510,7 @@ func (c *Client) DevMode() *Client {
 }
 
 // SetScheme set the default scheme for client, will be used when
-// there is no scheme in the request URL (e.g. "github.com/imroc/req").
+// there is no scheme in the request URL (e.g. "github.com/ExploitSuite/req").
 func (c *Client) SetScheme(scheme string) *Client {
 	if !util.IsStringEmpty(scheme) {
 		c.scheme = strings.TrimSpace(scheme)

@@ -11,7 +11,7 @@ import (
 	"context"
 	"crypto/tls"
 	"errors"
-	"github.com/imroc/req/v3/internal/transport"
+	"github.com/ExploitSuite/req/v3/internal/transport"
 	"net/http"
 	"net/http/httptest"
 

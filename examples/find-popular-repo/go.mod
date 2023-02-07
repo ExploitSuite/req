@@ -2,9 +2,9 @@ module find-popular-repo
 
 go 1.18
 
-replace github.com/imroc/req/v3 => ../../
+replace github.com/ExploitSuite/req/v3 => ../../
 
-require github.com/imroc/req/v3 v3.0.0
+require github.com/ExploitSuite/req/v3 v3.0.0
 
 require (
 	github.com/cheekybits/genny v1.0.0 // indirect

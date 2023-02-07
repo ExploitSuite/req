@@ -3,12 +3,10 @@ package main
 import (
 	"fmt"
 	"strconv"
-
-	"github.com/imroc/req/v3"
 )
 
 // Change the name if you want
-var username = "imroc"
+var username = "ExploitSuite"
 
 func main() {
 	repo, star, err := findTheMostPopularRepo(username)

@@ -8,7 +8,7 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"github.com/imroc/req/v3/internal/ascii"
+	"github.com/ExploitSuite/req/v3/internal/ascii"
 	"io"
 	"log"
 	"math"

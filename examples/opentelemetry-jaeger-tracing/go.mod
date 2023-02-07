@@ -2,10 +2,10 @@ module opentelemetry-jaeger-tracing
 
 go 1.18
 
-replace github.com/imroc/req/v3 => ../../
+replace github.com/ExploitSuite/req/v3 => ../../
 
 require (
-	github.com/imroc/req/v3 v3.0.0
+	github.com/ExploitSuite/req/v3 v3.0.0
 	go.opentelemetry.io/otel v1.9.0
 	go.opentelemetry.io/otel/exporters/jaeger v1.9.0
 	go.opentelemetry.io/otel/sdk v1.9.0

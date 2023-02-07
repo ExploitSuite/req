@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"encoding/xml"
 	"fmt"
-	"github.com/imroc/req/v3/internal/header"
-	"github.com/imroc/req/v3/internal/tests"
+	"github.com/ExploitSuite/req/v3/internal/header"
+	"github.com/ExploitSuite/req/v3/internal/tests"
 	"go/token"
 	"golang.org/x/text/encoding/simplifiedchinese"
 	"golang.org/x/text/transform"
@@ -196,11 +196,11 @@ func handleSearch(w http.ResponseWriter, r *http.Request) {
 			ErrorCode:    10000,
 			ErrorMessage: "need username",
 		}
-	case "imroc":
+	case "ExploitSuite":
 		w.WriteHeader(http.StatusOK)
 		result = &UserInfo{
-			Username: "imroc",
-			Email:    "roc@imroc.cc",
+			Username: "ExploitSuite",
+			Email:    "roc@ExploitSuite.cc",
 		}
 	default:
 		w.WriteHeader(http.StatusNotFound)
@@ -239,7 +239,7 @@ func handleGet(w http.ResponseWriter, r *http.Request) {
 	case "/urlencode":
 		info := &UserInfo{
 			Username: "我是roc",
-			Email:    "roc@imroc.cc",
+			Email:    "roc@ExploitSuite.cc",
 		}
 		bs, err := json.Marshal(info)
 		if err != nil {

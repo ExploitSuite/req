@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/imroc/req/v3/internal/quic-go/quicvarint"
+	"github.com/ExploitSuite/req/v3/internal/quic-go/quicvarint"
 	"io"
 )
 

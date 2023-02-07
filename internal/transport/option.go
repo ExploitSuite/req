@@ -3,7 +3,7 @@ package transport
 import (
 	"context"
 	"crypto/tls"
-	"github.com/imroc/req/v3/internal/dump"
+	"github.com/ExploitSuite/req/v3/internal/dump"
 	"net"
 	"net/http"
 	"net/url"
